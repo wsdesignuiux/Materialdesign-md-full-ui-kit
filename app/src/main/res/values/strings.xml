@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Materialdesign1</string>
+
+
+    <string name="hello"><font fgcolor="808080">PRIMARY SAVINGS *4566 </font>
+
+            <font fgcolor="#FF007F">$12,556.00</font></string>
+
+
+    <string name="hello_world"><font fgcolor="585858">-$38.69</font>
+
+            <font fgcolor="#7970f9">$2830.89</font></string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+</resources>

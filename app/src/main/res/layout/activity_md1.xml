@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_md"/>
+
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="69dp"
+            android:paddingBottom="22dp"
+            android:background="#673AB7">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textSize="15sp"
+                android:textColor="#AE80FF"/>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$2,599.00"
+                android:textSize="32sp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_wallet"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account"
+                    android:textSize="13sp"
+                    android:textColor="#808080"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello"
+                    android:textSize="15sp"
+                    android:textColor="#000000"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$1255.00 DUE 04/30/2015"
+                    android:textSize="14sp"
+                    android:textColor="#808080"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="68dp"
+            android:background="#808080"/>
+
+        <LinearLayout
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_user"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payee"
+                    android:textSize="13sp"
+                    android:textColor="#808080"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BANK OF AMERICA"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="68dp"
+            android:background="#808080"/>
+
+
+        <LinearLayout
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clock_with_white_face"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery by Date "
+                    android:textSize="13sp"
+                    android:textColor="#808080"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23,April,2015"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="67dp"
+            android:background="#808080"/>
+
+        <LinearLayout
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_check"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textSize="13sp"
+                    android:textColor="#808080"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="29dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROCESSED"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" PAY AGAIN"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/rect_pink"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
